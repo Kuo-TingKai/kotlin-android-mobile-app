@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kotlin App</string>
+    
+    <!-- 認證相關 -->
+    <string name="login">登入</string>
+    <string name="register">註冊</string>
+    <string name="logout">登出</string>
+    <string name="email">電子郵件</string>
+    <string name="password">密碼</string>
+    <string name="confirm_password">確認密碼</string>
+    <string name="name">姓名</string>
+    
+    <!-- 導航 -->
+    <string name="home">首頁</string>
+    <string name="profile">個人資料</string>
+    
+    <!-- 錯誤訊息 -->
+    <string name="error_network">網路連線錯誤</string>
+    <string name="error_invalid_email">無效的電子郵件格式</string>
+    <string name="error_password_too_short">密碼長度至少需要6個字符</string>
+    <string name="error_passwords_not_match">密碼不匹配</string>
+    
+    <!-- 成功訊息 -->
+    <string name="success_login">登入成功</string>
+    <string name="success_register">註冊成功</string>
+    <string name="success_logout">登出成功</string>
+</resources> 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- 包含用戶數據 -->
+    <include domain="database" path="."/>
+    <include domain="sharedpref" path="."/>
+    
+    <!-- 排除敏感數據 -->
+    <exclude domain="sharedpref" path="sensitive_data.xml"/>
+    <exclude domain="database" path="sensitive_database.db"/>
+</full-backup-content> 
