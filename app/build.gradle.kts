@@ -4,7 +4,6 @@ plugins {
     id("kotlin-kapt")
     id("dagger.hilt.android.plugin")
     id("kotlin-parcelize")
-    id("com.google.gms.google-services")
 }
 
 android {
@@ -102,12 +101,6 @@ dependencies {
     // Coil for Image Loading
     implementation("io.coil-kt:coil-compose:2.5.0")
     
-    // Firebase
-    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
-    implementation("com.google.firebase:firebase-auth-ktx")
-    implementation("com.google.firebase:firebase-firestore-ktx")
-    implementation("com.google.firebase:firebase-analytics-ktx")
-    
     // DataStore Preferences
     implementation("androidx.datastore:datastore-preferences:1.0.0")
     
@@ -124,4 +117,5 @@ dependencies {
     
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    implementation("com.google.android.material:material:1.11.0")
 } 
